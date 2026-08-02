@@ -1,0 +1,43 @@
+# Local Codex and agent metadata
+.agents/
+.codex/
+AGENTS.md
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# OCI credentials and local configuration
+.oci/
+config.local.toml
+*.pem
+*.key
+authority-secret*
+
+# Runtime state, audits, logs, and exports
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.jsonl
+*.log
+runtime/
+state/
+audit/
+exports/
+
+# Local test artifacts
+.env
+.env.*
+coverage.xml
+junit.xml
+test-results/
