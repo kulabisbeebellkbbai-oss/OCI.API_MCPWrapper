@@ -2,6 +2,7 @@
 .agents/
 .codex/
 AGENTS.md
+.worktrees/
 
 # Python environments and caches
 .venv/
